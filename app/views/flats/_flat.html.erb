@@ -1,0 +1,10 @@
+<div class="card col-3" id="flat">
+  <%= image_tag asset_path(flat.image_url), alt: "Flat Image", class: "card-img-top mt-2" %>
+  <div class="card-body">
+    <h5 class="card-title fw-600"> <%= flat.name %> </h5>
+    <p class="card-text"> <i class="fa-solid fa-building"></i> <%= flat.city %></p>
+    <p class="card-text"> <i class="fa-solid fa-map-pin"></i> <%= flat.address %></p>
+    <p class="card-text"> <i class="fa-solid fa-users-viewfinder"></i></i> <%= flat.number_of_guests %></p>
+    <%= link_to "View Property", flat_path(flat), class: "btn btn-primary" %>
+  </div>
+</div>

@@ -2,6 +2,11 @@ source "https://rubygems.org"
 
 ruby "3.1.2"
 
+# Additions post initialisation
+gem "psych", "4.0"
+gem "simple_form"
+gem "faker"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3"
 
